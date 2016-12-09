@@ -14,26 +14,27 @@ When desigining the application, I need to be aware of some stuffs:
    - This numbers are also unique, please refer to the numerical chart.
 
 Here is a chart system of the numerical numbers:
-Number | Numerical Word | Number | Numerical Word | Number | Numerical Word
-:----: | :----: | :----: | :----: | :----: | :----: 
-0 | zero | 10 | ten | 20 | twenty
-1 | one | 11 | eleven | 30 | thirty
-2 | two | 12 | twelve | 40 | forty
-3 | three | 13 | thirteen | 50 | fifty
-4 | four | 14 | fourteen | 60 | sixty
-5 | five | 15 | fifteen | 70 | seventy
-6 | six | 16 | sixteen | 80 | eighty
-7 | seven | 17 | seventeen | 90 | ninety
-8 | eight | 18 | eighteen | -- | --
-9 | nine | 19 | nineteen | -- | --
+
+Number | Numerical Word | Characters Length  | Number | Numerical Word | Characters Length |
+:----: | :------------: | :----------------: | :----: | :------------: | :---------------: |
+   0   | zero           | 4                  |   20   | twenty         | 6                 |
+   1   | one            | 3                  |   30   | thirty         | 6                 |
+   2   | two            | 3                  |   40   | forty          | 5                 |
+   3   | three          | 5                  |   50   | fifty          | 5                 |
+   4   | four           | 4                  |   60   | sixty          | 5                 |
+   5   | five           | 4                  |   70   | seventy        | 7                 |
+   6   | six            | 3                  |   80   | eighty         | 6                 |
+   7   | seven          | 5                  |   90   | ninety         | 6                 |
+   8   | eight          | 5                  |   --   | --             | --                |
+   9   | nine           | 4                  |   --   | --             | --                |
 
 Here are the base numbers, respect to 10^n (where n is positive integer):
 
-Number | Numerical Word |
-:----: | :----:
-100 | hundred
-1000 | thousand
-1,000,000 | million
-1,000,000,000 | billion
+Number        | Numerical Word | Characters Length |
+:-----------: | :------------: | :---------------: |
+100           | hundred        | 7                 |
+1000          | thousand       | 8                 |
+1,000,000     | million        | 7                 |
+1,000,000,000 | billion        | 7                 |
 
 The application only accepts values from 1-1000 and (2000, 3000, 4000, 5000, 6000, 7000, 8000 and 9000). Definevetely need to refactor my code, in order to keep expanding the application.
